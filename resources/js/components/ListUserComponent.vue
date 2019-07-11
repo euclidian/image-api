@@ -116,7 +116,7 @@ export default {
     generateToken(id) {
       var that = this;
       axios
-        .get("api/generateToken/" + id)
+        .get("api/api/generateToken/" + id)
         .then(function(response) {
           that.list();
           console.log(response.data);
