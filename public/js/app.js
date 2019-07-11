@@ -2318,7 +2318,7 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     generateToken: function generateToken(id) {
       var that = this;
-      axios.get("api/api/generateToken/" + id).then(function (response) {
+      axios.get("api/generateToken/" + id).then(function (response) {
         that.list();
         console.log(response.data);
       })["catch"](function (response) {

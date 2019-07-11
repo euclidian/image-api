@@ -29,4 +29,4 @@ Route::get('/download/{id}', 'Api\Web\HomeController@download');
 Route::get('/listuser',"Api\Web\Admin\AdminController@listuser");
 Route::get('/toAdmin/{id}',"Api\Web\Admin\AdminController@toAdmin");
 Route::get('/toActive/{id}',"Api\Web\Admin\AdminController@toActive");
-Route::get('api/generateToken/{id}',"Api\Web\Admin\AdminController@generateToken");
+Route::get('/generateToken/{id}',"Api\Web\Admin\AdminController@generateToken");
