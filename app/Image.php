@@ -17,7 +17,7 @@ class Image extends Model
     public static function uploadImage($r, $userId)
     {
         $r->validate([
-            'image' => 'required|mimes:jpeg,pdf,png,jpg'
+            'image' => 'required|mimes:jpeg,pdf,png,jpg,xls'
         ]);
 
 
