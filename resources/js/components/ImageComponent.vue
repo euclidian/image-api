@@ -102,7 +102,7 @@
               </template>
               <span>Detail Gambar</span>
             </v-tooltip>
-            <a :href="'api/download/'+props.item.id">
+            <a :href="props.item.cdn">
               <v-tooltip top>
                 <template v-slot:activator="{ on }">
                   <v-btn fab dark small color="success" v-on="on">
